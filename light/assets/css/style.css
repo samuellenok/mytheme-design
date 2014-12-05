@@ -67,25 +67,26 @@ h3{
 /*=====================================
    NAV BAR STYLE SECTION
     ===================================*/
-
+.navbar-brand-logo {
+    max-height:60px;
+    float:left;
+    padding:0 10px 25px 0;
+}
 /*Menu border Color*/
-.navbar-default {
+/*.navbar-default {
 border-color: #000;
 background-color:#242222;
 }
-/*Logo Image */
-.navbar-brand-logo {
-    max-height:60px;
-    padding-bottom:20px;
-}
-/*top-menu links color*/
+Logo Image 
+*/
+/*top-menu links color
 .navbar-default .navbar-nav > li > a {
     color: #FFF;
 }
-/*top-menu links color on hover*/
-    .navbar-default .navbar-nav > li > a:hover {
+top-menu links color on hover
+.navbar-default .navbar-nav > li > a:hover {
         color: #fff;
-    }
+}*/
 
 /*top-menu links & margin*/    
 .navbar-nav > li > a {
