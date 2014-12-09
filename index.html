@@ -182,14 +182,7 @@
 		<!--  Custom Scripts -->
 		<script src="assets/js/custom.js"></script>
 		<script type="text/javascript">
-		$('#english-home').on('click',function(){
-		   $.get('light/index.html').then(function(responseData) {
-			  //responseData is the contents of the other page. Do whatever you want with it.
-			  var page=$(responseData).find('body');
-			  console.log(page.html())
-			  $('body').html($(responseData).find('body').html());
-			});
-		});
+		
 		</script>
 	</body>
 </html>
