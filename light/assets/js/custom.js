@@ -47,7 +47,7 @@
             $("a.preview").prettyPhoto({
                 social_tools: false
             });
-            
+           
            
             /*====================================
             WRITE YOUR SCRIPTS HERE

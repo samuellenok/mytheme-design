@@ -356,4 +356,18 @@ margin-top: 20px;
    padding:10px;
 }
 
- 
+ @font-face {
+      font-family: Chilanka;
+      src:  url(http://smc.org.in/downloads/fonts/chilanka/Chilanka.eot?v=1.0);/* IE9 Compat Modes */
+      src:  url(http://smc.org.in/downloads/fonts/chilanka/Chilanka.eot?v=1.0#iefix) format('embedded-opentype'), /* IE6-IE8 */
+            url(http://smc.org.in/downloads/fonts/chilanka/Chilanka.woff2?v=1.0) format('woff2'),
+            url(http://smc.org.in/downloads/fonts/chilanka/Chilanka.woff?v=1.0) format('woff'),
+            url(http://smc.org.in/downloads/fonts/chilanka/Chilanka.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+    }
+    body {
+      font-family: 'Chilanka', cursive;
+      line-height: 2em;
+   
+    }
