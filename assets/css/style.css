@@ -1,38 +1,41 @@
-﻿/*=====================================
-   GENERAL STYLE SECTION
-    ===================================*/
+﻿/*
+ * ************************************************************************************
+ * General Styles
+ * ************************************************************************************
+ */
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size:14px;
-    line-height:25px;
-   background-color:#000;
-   color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	background-color: #000;
+	color: #fff;
 }
 .text-center {
-    text-align:center;
+	text-align: center;
 }
 .sub-head {
-        padding-bottom:50px;
-        display:block;
-    }
+	padding-bottom: 50px;
+	display: block;
+}
 .pad-top-botm {
-    padding-top:50px;
-    padding-bottom:50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
-  
+
 h2 {
-    color:#ff0000;
-    font-weight:900;
-    
+	color: #ff0000;
+	font-weight: 900;
 }
-h3{
-    color:#159238;
-    
+h3 {
+	color: #159238;
 }
- /*=====================================
-  PRELOADER STYLES 
-    ===================================*/
-   #pre-div {
+/*
+ * ************************************************************************************
+ * Pre Loader Styles
+ * ************************************************************************************
+ */
+
+#pre-div {
     background-color: #fff;
     bottom: 0;
     height: 100%;
